@@ -1,6 +1,7 @@
 # FoodifyProject
 Description:
 This Flutter application is meant to help the user keep track of all the food items they already have
+-zip file holds entire project as well
 
 Application Instructions:
 -The user will start in the home page in which he/she can click/swipe on the drawer widget in the top left corner
