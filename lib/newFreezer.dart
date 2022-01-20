@@ -23,10 +23,18 @@ class _newFreezerPageState extends State<newFreezerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.lightBlueAccent,
         body: Center(
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Text(
+                  "Add New Item",
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 50),
+
+
+                ),
                 TextField(
                   controller: nameController,
                   obscureText: false,

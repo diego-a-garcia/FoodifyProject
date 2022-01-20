@@ -39,7 +39,7 @@ class _MyFreezerPageState extends State<MyFreezerPage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-
+      backgroundColor: Colors.tealAccent ,
       body:ListView.builder(
         itemCount: food.length,
 
